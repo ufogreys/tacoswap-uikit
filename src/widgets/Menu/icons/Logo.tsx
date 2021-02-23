@@ -12,6 +12,8 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
     <h1
       style={{
         fontFamily: "taco",
+        textTransform: "uppercase",
+        fontSize: "20pt",
       }}
     >
       Taco Swap

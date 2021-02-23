@@ -26,7 +26,6 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   border-right: ${({ isPushed }) => (isPushed ? "2px solid rgba(133, 133, 133, 0.1)" : 0)};
   z-index: 11;
   overflow: ${({ isPushed }) => (isPushed ? "initial" : "hidden")};
-  background: url(/taco-tile.png);
   transform: translate3d(0, 0, 0);
 
   ${({ theme }) => theme.mediaQueries.nav} {
