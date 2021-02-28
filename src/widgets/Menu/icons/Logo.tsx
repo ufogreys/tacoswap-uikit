@@ -13,7 +13,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       style={{
         fontFamily: "taco",
         textTransform: "uppercase",
-        fontSize: "20pt",
+        fontSize: "14pt",
       }}
     >
       Taco Swap
